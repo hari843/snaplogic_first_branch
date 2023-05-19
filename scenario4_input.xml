@@ -1,0 +1,6 @@
+<root>
+          <fromLengthUnit>Centimeters</fromLengthUnit>
+          <toLengthUnit>Inches</toLengthUnit>
+          <value>20</value>
+          <requiredResponseFormat>json</requiredResponseFormat>
+</root>

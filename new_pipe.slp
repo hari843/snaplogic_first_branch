@@ -2,47 +2,41 @@
     "class_id": "com-snaplogic-pipeline",
     "class_version": 9,
     "link_map": {
-        "link100": {
+        "link108": {
             "dst_id": "11111111-1111-1111-1111-000000000001",
-            "dst_view_id": "input101",
-            "isGoto": false,
+            "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-000000000000",
             "src_view_id": "output0"
         },
-        "link104": {
+        "link119": {
             "dst_id": "11111111-1111-1111-1111-000000000002",
-            "dst_view_id": "input0",
-            "isGoto": false,
+            "dst_view_id": "input101",
             "src_id": "11111111-1111-1111-1111-000000000001",
             "src_view_id": "output0"
         },
-        "link105": {
+        "link122": {
             "dst_id": "11111111-1111-1111-1111-000000000005",
             "dst_view_id": "input0",
-            "isGoto": false,
+            "src_id": "11111111-1111-1111-1111-000000000004",
+            "src_view_id": "output0"
+        },
+        "link128": {
+            "dst_id": "11111111-1111-1111-1111-000000000003",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_view_id": "output0"
+        },
+        "link129": {
+            "dst_id": "11111111-1111-1111-1111-000000000004",
+            "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-000000000003",
             "src_view_id": "output0"
         },
-        "link106": {
-            "dst_id": "11111111-1111-1111-1111-000000000003",
-            "dst_view_id": "input0",
-            "isGoto": false,
-            "src_id": "11111111-1111-1111-1111-000000000002",
-            "src_view_id": "output0"
-        },
-        "link107": {
-            "dst_id": "11111111-1111-1111-1111-000000000004",
-            "dst_view_id": "input0",
-            "isGoto": false,
-            "src_id": "11111111-1111-1111-1111-000000000002",
-            "src_view_id": "output1"
-        },
-        "link108": {
+        "link130": {
             "dst_id": "11111111-1111-1111-1111-000000000006",
             "dst_view_id": "input0",
-            "isGoto": false,
             "src_id": "11111111-1111-1111-1111-000000000004",
-            "src_view_id": "output0"
+            "src_view_id": "output1"
         }
     },
     "property_map": {
@@ -53,7 +47,7 @@
         },
         "info": {
             "author": {
-                "value": "rsramkoski@snaplogic.com"
+                "value": "hariharanatha.chappidi@bilvantis.io"
             },
             "label": {},
             "notes": {
@@ -67,7 +61,32 @@
             }
         },
         "input": {},
-        "output": {},
+        "output": {
+            "11111111-1111-1111-1111-000000000004_output101": {
+                "label": {
+                    "value": "Router - output2"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            },
+            "11111111-1111-1111-1111-000000000004_output102": {
+                "label": {
+                    "value": "Router - output3"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            },
+            "11111111-1111-1111-1111-000000000004_output103": {
+                "label": {
+                    "value": "Router - output4"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
         "settings": {
             "error_param_table": {
                 "value": []
@@ -120,13 +139,7 @@
                 "grid_y_int": 1,
                 "index": null,
                 "input": {},
-                "output": {
-                    "output1": {
-                        "dx_int": 0,
-                        "dy_int": 1,
-                        "rot_int": 0
-                    }
-                },
+                "output": {},
                 "recommendation_id": null,
                 "rot_int": 0,
                 "rot_tail_int": 0,
@@ -142,23 +155,44 @@
                 "recommendation_id": null,
                 "rot_int": 0,
                 "rot_tail_int": 0,
-                "source": "snap catagory"
+                "source": ""
             },
             "11111111-1111-1111-1111-000000000004": {
                 "error": {},
-                "grid_x_int": 4,
-                "grid_y_int": 2,
+                "grid_x_int": 5,
+                "grid_y_int": 1,
                 "index": null,
                 "input": {},
-                "output": {},
+                "output": {
+                    "output1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    },
+                    "output101": {
+                        "dx_int": 0,
+                        "dy_int": 2,
+                        "rot_int": 0
+                    },
+                    "output102": {
+                        "dx_int": 0,
+                        "dy_int": 3,
+                        "rot_int": 0
+                    },
+                    "output103": {
+                        "dx_int": 0,
+                        "dy_int": 4,
+                        "rot_int": 0
+                    }
+                },
                 "recommendation_id": null,
                 "rot_int": 0,
                 "rot_tail_int": 0,
-                "source": ""
+                "source": "snap catagory"
             },
             "11111111-1111-1111-1111-000000000005": {
                 "error": {},
-                "grid_x_int": 5,
+                "grid_x_int": 6,
                 "grid_y_int": 1,
                 "index": null,
                 "input": {},
@@ -170,7 +204,7 @@
             },
             "11111111-1111-1111-1111-000000000006": {
                 "error": {},
-                "grid_x_int": 5,
+                "grid_x_int": 6,
                 "grid_y_int": 2,
                 "index": null,
                 "input": {},
@@ -187,9 +221,179 @@
     },
     "snap_map": {
         "11111111-1111-1111-1111-000000000000": {
-            "class_id": "com-snaplogic-snaps-snaplogic-list",
+            "class_id": "com-snaplogic-snaps-binary-simpleread",
             "class_version": 1,
             "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "value": {}
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "File Reader"
+                    },
+                    "notes": {}
+                },
+                "input": {},
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "advancedProperties": {
+                        "value": []
+                    },
+                    "enableStaging": {
+                        "value": false
+                    },
+                    "executeDuringPreview": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "filePath": {
+                        "expression": false,
+                        "value": ""
+                    },
+                    "preventURLEncoding": {
+                        "value": false
+                    },
+                    "retries": {
+                        "expression": false,
+                        "value": 0
+                    },
+                    "retryInterval": {
+                        "expression": false,
+                        "value": 1
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-transform-excelparser",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Excel Parser"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "EvaluateFormulasProp": {
+                        "value": false
+                    },
+                    "cellFormatting": {
+                        "value": "Formatted"
+                    },
+                    "columnNamesProp": {
+                        "value": []
+                    },
+                    "containsHeaderProp": {
+                        "value": true
+                    },
+                    "customLocale": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "endRowProp": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "headerRowProp": {
+                        "expression": false,
+                        "value": 1
+                    },
+                    "lastBlankHeaders": {
+                        "expression": false,
+                        "value": 0
+                    },
+                    "nullEmptyColumns": {
+                        "value": true
+                    },
+                    "roundDateToSeconds": {
+                        "value": false
+                    },
+                    "sheetIndexOrNameProp": {
+                        "expression": false,
+                        "value": "0"
+                    },
+                    "sheetNameProp": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "startRowProp": {
+                        "expression": false,
+                        "value": null
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
+            "class_id": "com-snaplogic-snaps-snaplogic-list",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000002",
             "property_map": {
                 "error": {
                     "error0": {
@@ -208,60 +412,7 @@
                     "label": {
                         "value": "SnapLogic List"
                     },
-                    "notes": {
-                        "value": null
-                    }
-                },
-                "output": {
-                    "output0": {
-                        "label": {
-                            "value": "output0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "settings": {
-                    "AssetPath": {
-                        "expression": false,
-                        "value": "/ConnectFasterInc/Roger Sramkoski/GitHub"
-                    },
-                    "AssetType": {
-                        "value": "TASK"
-                    },
-                    "execution_mode": {
-                        "value": "Validate & Execute"
-                    }
-                },
-                "view_serial": 100
-            }
-        },
-        "11111111-1111-1111-1111-000000000001": {
-            "class_id": "com-snaplogic-snaps-snaplogic-read",
-            "class_version": 1,
-            "instance_id": "11111111-1111-1111-1111-000000000001",
-            "property_map": {
-                "error": {
-                    "error0": {
-                        "label": {
-                            "value": "error0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    },
-                    "error_behavior": {
-                        "value": "fail"
-                    }
-                },
-                "info": {
-                    "label": {
-                        "value": "SnapLogic Read"
-                    },
-                    "notes": {
-                        "value": null
-                    }
+                    "notes": {}
                 },
                 "input": {
                     "input101": {
@@ -285,26 +436,101 @@
                 },
                 "settings": {
                     "AssetPath": {
-                        "expression": true,
-                        "value": "$path"
+                        "expression": false,
+                        "value": "/SnapLogicCertificationOrg/projects/Assessment Solutions_chappidi hari hara natha reddy"
                     },
                     "AssetType": {
-                        "value": "TASK"
+                        "value": "ALL"
                     },
                     "execution_mode": {
                         "value": "Validate & Execute"
-                    },
-                    "normalized": {
-                        "value": false
                     }
                 },
                 "view_serial": 101
             }
         },
-        "11111111-1111-1111-1111-000000000002": {
+        "11111111-1111-1111-1111-000000000003": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "nullSafeAccess": {
+                        "value": true
+                    },
+                    "passThrough": {
+                        "value": true
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$asset_type.replace(\"Job\",\"Task\")"
+                                        },
+                                        "targetPath": {
+                                            "value": "$asset_type"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000004": {
             "class_id": "com-snaplogic-snaps-flow-router",
             "class_version": 2,
-            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "instance_id": "11111111-1111-1111-1111-000000000004",
             "property_map": {
                 "error": {
                     "error0": {
@@ -323,9 +549,7 @@
                     "label": {
                         "value": "Router"
                     },
-                    "notes": {
-                        "value": null
-                    }
+                    "notes": {}
                 },
                 "input": {
                     "input0": {
@@ -353,6 +577,30 @@
                         "view_type": {
                             "value": "document"
                         }
+                    },
+                    "output101": {
+                        "label": {
+                            "value": "output2"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output102": {
+                        "label": {
+                            "value": "output3"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "output103": {
+                        "label": {
+                            "value": "output4"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
                     }
                 },
                 "settings": {
@@ -367,7 +615,7 @@
                             {
                                 "expression": {
                                     "expression": true,
-                                    "value": "$original.metadata.type == \"triggered\" || $original.metadata.type == \"scheduled\""
+                                    "value": "$asset_type=='Pipeline'"
                                 },
                                 "outputViewName": {
                                     "value": "output0"
@@ -376,198 +624,47 @@
                             {
                                 "expression": {
                                     "expression": true,
-                                    "value": "$original.metadata.type == \"always-on\""
+                                    "value": "$asset_type=='Task'"
                                 },
                                 "outputViewName": {
                                     "value": "output1"
+                                }
+                            },
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": "$asset_type=='File'"
+                                },
+                                "outputViewName": {
+                                    "value": "output2"
+                                }
+                            },
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": null
+                                },
+                                "outputViewName": {
+                                    "value": "output3"
+                                }
+                            },
+                            {
+                                "expression": {
+                                    "expression": true,
+                                    "value": null
+                                },
+                                "outputViewName": {
+                                    "value": "output4"
                                 }
                             }
                         ]
                     }
                 },
-                "view_serial": 100
-            }
-        },
-        "11111111-1111-1111-1111-000000000003": {
-            "class_id": "com-snaplogic-snaps-transform-datatransform",
-            "class_version": 4,
-            "instance_id": "11111111-1111-1111-1111-000000000003",
-            "property_map": {
-                "error": {
-                    "error0": {
-                        "label": {
-                            "value": "error0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    },
-                    "error_behavior": {
-                        "value": "fail"
-                    }
-                },
-                "info": {
-                    "label": {
-                        "value": "Mapper"
-                    },
-                    "notes": {
-                        "value": null
-                    }
-                },
-                "input": {
-                    "input0": {
-                        "label": {
-                            "value": "input0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "output": {
-                    "output0": {
-                        "label": {
-                            "value": "output0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "settings": {
-                    "execution_mode": {
-                        "value": "Validate & Execute"
-                    },
-                    "nullSafeAccess": {
-                        "value": false
-                    },
-                    "passThrough": {
-                        "value": true
-                    },
-                    "transformations": {
-                        "value": {
-                            "mappingRoot": {
-                                "value": "$"
-                            },
-                            "mappingTable": {
-                                "value": [
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$original.path"
-                                        },
-                                        "targetPath": {
-                                            "value": "$path"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "\"ConnectFasterInc/rt/cloud/TriggerCloudplex\""
-                                        },
-                                        "targetPath": {
-                                            "value": "$parameters.runtime_path_id"
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                },
-                "view_serial": 100
-            }
-        },
-        "11111111-1111-1111-1111-000000000004": {
-            "class_id": "com-snaplogic-snaps-transform-datatransform",
-            "class_version": 4,
-            "instance_id": "11111111-1111-1111-1111-000000000004",
-            "property_map": {
-                "error": {
-                    "error0": {
-                        "label": {
-                            "value": "error0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    },
-                    "error_behavior": {
-                        "value": "fail"
-                    }
-                },
-                "info": {
-                    "label": {
-                        "value": "Mapper"
-                    },
-                    "notes": {
-                        "value": null
-                    }
-                },
-                "input": {
-                    "input0": {
-                        "label": {
-                            "value": "input0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "output": {
-                    "output0": {
-                        "label": {
-                            "value": "output0"
-                        },
-                        "view_type": {
-                            "value": "document"
-                        }
-                    }
-                },
-                "settings": {
-                    "execution_mode": {
-                        "value": "Validate & Execute"
-                    },
-                    "nullSafeAccess": {
-                        "value": false
-                    },
-                    "passThrough": {
-                        "value": true
-                    },
-                    "transformations": {
-                        "value": {
-                            "mappingRoot": {
-                                "value": "$"
-                            },
-                            "mappingTable": {
-                                "value": [
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "$original.path"
-                                        },
-                                        "targetPath": {
-                                            "value": "$path"
-                                        }
-                                    },
-                                    {
-                                        "expression": {
-                                            "expression": true,
-                                            "value": "\"ConnectFasterInc/rt/cloud/UltraCloudplex\""
-                                        },
-                                        "targetPath": {
-                                            "value": "$parameters.runtime_path_id"
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    }
-                },
-                "view_serial": 100
+                "view_serial": 103
             }
         },
         "11111111-1111-1111-1111-000000000005": {
-            "class_id": "com-snaplogic-snaps-snaplogic-update",
+            "class_id": "com-snaplogic-snaps-snaplogic-create",
             "class_version": 1,
             "instance_id": "11111111-1111-1111-1111-000000000005",
             "property_map": {
@@ -586,11 +683,9 @@
                 },
                 "info": {
                     "label": {
-                        "value": "SnapLogic Update"
+                        "value": "SnapLogic Create"
                     },
-                    "notes": {
-                        "value": null
-                    }
+                    "notes": {}
                 },
                 "input": {
                     "input0": {
@@ -602,26 +697,27 @@
                         }
                     }
                 },
+                "output": {},
                 "settings": {
                     "AssetPath": {
-                        "expression": true,
-                        "value": "$path"
+                        "expression": false,
+                        "value": "/Partners/projects/migration/new_pipeline"
                     },
                     "AssetType": {
-                        "value": "TASK"
+                        "value": "PIPELINE"
                     },
                     "executable_during_suggest": {
                         "value": false
                     },
                     "execution_mode": {
-                        "value": "Execute only"
+                        "value": "Validate & Execute"
                     }
                 },
                 "view_serial": 100
             }
         },
         "11111111-1111-1111-1111-000000000006": {
-            "class_id": "com-snaplogic-snaps-snaplogic-update",
+            "class_id": "com-snaplogic-snaps-snaplogic-create",
             "class_version": 1,
             "instance_id": "11111111-1111-1111-1111-000000000006",
             "property_map": {
@@ -640,11 +736,9 @@
                 },
                 "info": {
                     "label": {
-                        "value": "SnapLogic Update"
+                        "value": "SnapLogic Create"
                     },
-                    "notes": {
-                        "value": null
-                    }
+                    "notes": {}
                 },
                 "input": {
                     "input0": {
@@ -656,10 +750,11 @@
                         }
                     }
                 },
+                "output": {},
                 "settings": {
                     "AssetPath": {
-                        "expression": true,
-                        "value": "$path"
+                        "expression": false,
+                        "value": "/Partners/projects/chappidi hari hara natha reddy/Scenario4_WebServices_Task_migrated"
                     },
                     "AssetType": {
                         "value": "TASK"
@@ -668,7 +763,7 @@
                         "value": false
                     },
                     "execution_mode": {
-                        "value": "Execute only"
+                        "value": "Validate & Execute"
                     }
                 },
                 "view_serial": 100
