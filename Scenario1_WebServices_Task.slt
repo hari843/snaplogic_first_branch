@@ -7,8 +7,8 @@
         "include_external_urls": true,
         "job_type": "standard",
         "pipeline_parameters": {
-            "appId": "",
-            "cityName": ""
+            "appId": "2344566",
+            "cityName": "new_delhi"
         },
         "pipeline_path": "Scenario1_WebServices",
         "snaplex_path": "Cloud"
