@@ -9,7 +9,7 @@
         "max_failures": 10,
         "max_in_flight": 200,
         "pipeline_parameters": {
-            "inputdata": "given the data for use of second branch iihvvugt"
+            "inputdata": "new updated "
         },
         "pipeline_path": "Scenario4_WebServices",
         "snaplex_path": "Cloud",
