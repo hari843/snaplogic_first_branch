@@ -79,6 +79,12 @@
             "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-000000000000",
             "src_view_id": "output0"
+        },
+        "link117": {
+            "dst_id": "11111111-1111-1111-1111-00000000000d",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-00000000000c",
+            "src_view_id": "output0"
         }
     },
     "property_map": {
@@ -113,9 +119,9 @@
             }
         },
         "output": {
-            "11111111-1111-1111-1111-00000000000c_output0": {
+            "11111111-1111-1111-1111-00000000000d_output0": {
                 "label": {
-                    "value": "Union - output0"
+                    "value": "Mapper - output0"
                 },
                 "view_type": {
                     "value": "document"
@@ -168,7 +174,7 @@
             "11111111-1111-1111-1111-000000000000": {
                 "error": {},
                 "grid_x_int": 2,
-                "grid_y_int": 3,
+                "grid_y_int": 2,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -180,7 +186,7 @@
             "11111111-1111-1111-1111-000000000001": {
                 "error": {},
                 "grid_x_int": 3,
-                "grid_y_int": 3,
+                "grid_y_int": 2,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -192,7 +198,7 @@
             "11111111-1111-1111-1111-000000000002": {
                 "error": {},
                 "grid_x_int": 4,
-                "grid_y_int": 3,
+                "grid_y_int": 2,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -204,7 +210,7 @@
             "11111111-1111-1111-1111-000000000003": {
                 "error": {},
                 "grid_x_int": 5,
-                "grid_y_int": 3,
+                "grid_y_int": 2,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -216,7 +222,7 @@
             "11111111-1111-1111-1111-000000000004": {
                 "error": {},
                 "grid_x_int": 6,
-                "grid_y_int": 3,
+                "grid_y_int": 2,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -228,7 +234,7 @@
             "11111111-1111-1111-1111-000000000005": {
                 "error": {},
                 "grid_x_int": 7,
-                "grid_y_int": 3,
+                "grid_y_int": 2,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -240,7 +246,7 @@
             "11111111-1111-1111-1111-000000000006": {
                 "error": {},
                 "grid_x_int": 8,
-                "grid_y_int": 3,
+                "grid_y_int": 2,
                 "index": 0,
                 "input": {},
                 "output": {},
@@ -252,7 +258,7 @@
             "11111111-1111-1111-1111-000000000007": {
                 "error": {},
                 "grid_x_int": 9,
-                "grid_y_int": 3,
+                "grid_y_int": 2,
                 "index": null,
                 "input": {},
                 "output": {
@@ -270,7 +276,7 @@
             "11111111-1111-1111-1111-000000000008": {
                 "error": {},
                 "grid_x_int": 10,
-                "grid_y_int": 3,
+                "grid_y_int": 2,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -282,7 +288,7 @@
             "11111111-1111-1111-1111-000000000009": {
                 "error": {},
                 "grid_x_int": 10,
-                "grid_y_int": 4,
+                "grid_y_int": 3,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -294,7 +300,7 @@
             "11111111-1111-1111-1111-00000000000a": {
                 "error": {},
                 "grid_x_int": 11,
-                "grid_y_int": 3,
+                "grid_y_int": 2,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -306,7 +312,7 @@
             "11111111-1111-1111-1111-00000000000b": {
                 "error": {},
                 "grid_x_int": 11,
-                "grid_y_int": 4,
+                "grid_y_int": 3,
                 "index": null,
                 "input": {},
                 "output": {},
@@ -318,7 +324,7 @@
             "11111111-1111-1111-1111-00000000000c": {
                 "error": {},
                 "grid_x_int": 12,
-                "grid_y_int": 3,
+                "grid_y_int": 2,
                 "index": null,
                 "input": {
                     "input1": {
@@ -327,6 +333,18 @@
                         "rot_int": 0
                     }
                 },
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-00000000000d": {
+                "error": {},
+                "grid_x_int": 13,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
                 "output": {},
                 "recommendation_id": null,
                 "rot_int": 0,
@@ -1434,6 +1452,76 @@
                 "settings": {
                     "execution_mode": {
                         "value": "Validate & Execute"
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-00000000000d": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-00000000000d",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Mapper"
+                    }
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true
+                                        }
+                                    }
+                                ]
+                            }
+                        }
                     }
                 },
                 "view_serial": 100
