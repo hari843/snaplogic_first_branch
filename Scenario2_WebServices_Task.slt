@@ -7,9 +7,9 @@
         "include_external_urls": true,
         "job_type": "standard",
         "pipeline_parameters": {
-            "acceptableHumidity": "",
-            "acceptablePressure": "",
-            "acceptableTemperature": "",
+            "acceptableHumidity": "455",
+            "acceptablePressure": "r44556",
+            "acceptableTemperature": "30995",
             "appId": "",
             "cityList": ""
         },
